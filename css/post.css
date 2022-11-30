@@ -1,0 +1,38 @@
+#postContainer > div > h1{
+    font-size: 1.8em;
+
+}
+
+.inputs{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.inputs > p > input, .inputs > p > textarea{
+    width: 80%;
+    height: 2rem;
+
+    border-radius: 4px;
+}
+
+.inputs > p > textarea{
+    height: 7rem;
+}
+
+.backButton{
+    position: sticky;
+    top: 3rem;
+}
+
+form{
+    margin-bottom: 4rem;
+}
+
+.comment{
+    margin: 2rem 0;
+}
+
+.comment > h3{
+    color: #96d1fb;
+    margin-bottom: 0.5rem;
+}

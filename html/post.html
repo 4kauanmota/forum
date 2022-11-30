@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/post.css">
+    <script src="../js/post.js" defer></script>
+  </head>
+
+  <body>
+    <form class="hide" id="createCommentForm">
+      <a class="backButton" href="../index.html">Back</a>
+
+      <div class="inputs">
+        <p>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email here"
+            required
+          />
+        </p>
+
+        <p>
+          <textarea
+            name="body"
+            id="body"
+            placeholder="Type your comment here"
+            required
+          ></textarea>
+        </p>
+
+        <p>
+          <input type="submit" value="Send" class="button" />
+        </p>
+      </div>
+    </form>
+
+    <p class="loading">Loading...</p>
+
+    <div id="postContainer"></div>
+
+    <section id="commentsContainer"></section>
+  </body>
+</html>
